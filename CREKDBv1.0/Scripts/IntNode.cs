@@ -1,7 +1,7 @@
 ﻿/* Copyright (C) 2023 Michael Sweet - All Rights Reserved
  * mjcsweet2@outlook.com
- * You may use, distribute and modify this code under the terms of the GNU General Public License v3.0.
- * You should have received a copy of the GNU General Public License v3.0 license with this file.
+ * You may use, distribute and modify this code under the terms of the MIT License.
+ * You should have received a copy of the MIT License with this file.
  */
 using System.Collections;
 using System.Collections.Generic;
