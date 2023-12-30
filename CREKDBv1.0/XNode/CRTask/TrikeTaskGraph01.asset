@@ -1,5 +1,38 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7862003894854605166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be69e108ff19e3469b15c827feda0ff, type: 3}
+  m_Name: Float
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2760, y: 1064}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -7862003894854605166}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bf
+        node: {fileID: -4477692760852338492}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  floatNodeName: CollabTask01007
+  v: 0.1
+  value: '{"nodename":"CollabTask01007","returntype":"float"}'
 --- !u!114 &-7263617299587410947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +242,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  crMotionTaskItemNodeName: 
+  crMotionTaskItemNodeName: ControllerTask02002
   motionName: shiftsidesingle02
   op: 0
   param1: '{"nodename":"ControllerTask02008","returntype":"int"}'
@@ -217,7 +250,7 @@ MonoBehaviour:
   param3: 
   param4: 
   entry: ControllerTask02001_true
-  exit: 
+  exit: ControllerTask02002
 --- !u!114 &-5856071383510216848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,7 +333,7 @@ MonoBehaviour:
   m_Name: Topic Message TI
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3272, y: 616}
+  position: {x: 3304, y: 616}
   ports:
     keys:
     - entry
@@ -337,14 +370,14 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: value
-        node: {fileID: 6111820214367737632}
+        node: {fileID: -4477692760852338492}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   topicMessageTINodeName: CollabTask01001
-  topic: NSC/BalDiff/Motion/pose.tr
+  topic: CR/BalDiff/Motion/pose.tr
   message: 
   entry: task;CollabTask01
   exit: CollabTask01001
@@ -454,6 +487,78 @@ MonoBehaviour:
   vectorFuncNodeName: OMTask01005
   functionName: getStanceLF
   retValue: '{"nodename":"OMTask01005","returntype":"float3"}'
+--- !u!114 &-4477692760852338492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3048, y: 808}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: -4477692760852338492}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 6111820214367737632}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: -4477692760852338492}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: -4477692760852338492}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -7862003894854605166}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -4477692760852338492}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -5761643325091841844}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: CollabTask01003
+  op: 2
+  a: '{"nodename":"CollabTask01004","returntype":"float3"}'
+  bv: '{"nodename":"CollabTask01007","returntype":"float"}'
+  bf: '{"nodename":"CollabTask01007","returntype":"float"}'
+  value: '{"nodename":"CollabTask01003","returntype":"float3"}'
 --- !u!114 &-4412574074068554515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,7 +645,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  crMotionTaskItemNodeName: 
+  crMotionTaskItemNodeName: ControllerTask02006
   motionName: shiftsingle02
   op: 0
   param1: '{"nodename":"ControllerTask02008","returntype":"int"}'
@@ -548,7 +653,7 @@ MonoBehaviour:
   param3: 
   param4: 
   entry: ControllerTask02005_true
-  exit: 
+  exit: ControllerTask02006
 --- !u!114 &-4238346455413315057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,7 +686,7 @@ MonoBehaviour:
       _dynamic: 0
   aliasFlowNodeName: ControllerTask01003
   nextFlowNodeName: ControllerTask01001
-  entry: _a
+  entry: ControllerTask01002_a
 --- !u!114 &-4111995029215767965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,7 +1222,7 @@ MonoBehaviour:
       _dynamic: 0
   aliasFlowNodeName: ControllerTask01006
   nextFlowNodeName: ControllerTask01001
-  entry: _a
+  entry: ControllerTask01005_a
 --- !u!114 &-694949875176485827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,7 +1343,9 @@ MonoBehaviour:
   - {fileID: 4050148377762779290}
   - {fileID: -3376000370357911955}
   - {fileID: 6158810578095292024}
-  uniqueNameSuffix: 5
+  - {fileID: -4477692760852338492}
+  - {fileID: -7862003894854605166}
+  uniqueNameSuffix: 7
 --- !u!114 &881112259495158257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1252,7 +1359,7 @@ MonoBehaviour:
   m_Name: Controller Input
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2760, y: 792}
+  position: {x: 2456, y: 792}
   ports:
     keys:
     - rightY
@@ -1342,11 +1449,11 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  controllerInputNodeName: CollabTask01005
-  leftX: '{"nodename":"CollabTask01005.leftX","returntype":"float"}'
-  leftY: '{"nodename":"CollabTask01005.leftY","returntype":"float"}'
-  rightX: '{"nodename":"TempNameCollab01.rightX","returntype":"float"}'
-  rightY: '{"nodename":"TempNameCollab01.rightY","returntype":"float"}'
+  controllerInputNodeName: CollabTask01006
+  leftX: '{"nodename":"CollabTask01006.leftX","returntype":"float"}'
+  leftY: '{"nodename":"CollabTask01006.leftY","returntype":"float"}'
+  rightX: '{"nodename":"CollabTask01005.rightX","returntype":"float"}'
+  rightY: '{"nodename":"CollabTask01005.rightY","returntype":"float"}'
   pos01: '{"nodename":"TempNameCollab01.pos01","returntype":"float3"}'
   rot01: '{"nodename":"TempNameCollab01.rot01","returntype":"float3"}'
   pos02: '{"nodename":"CollabTask01005.pos02","returntype":"float3"}'
@@ -1618,12 +1725,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  crMotionTaskItemNodeName: 
+  crMotionTaskItemNodeName: OMTask01001
   motionName: fglide
   op: 0
-  param1: 
-  param2: 
-  param3: 
+  param1: '{"nodename":"OMTask01002","returntype":"float3"}'
+  param2: '{"nodename":"OMTask01003","returntype":"float3"}'
+  param3: '{"nodename":"OMTask01007","returntype":"int"}'
   param4: 
   entry: task;OMTask01
   exit: 
@@ -1895,7 +2002,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   crtaskName: ControllerTask02
-  firstNode: task;ControllerTask01
+  firstNode: task;ControllerTask02
 --- !u!114 &4249556249634154860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2053,7 +2160,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  crMotionTaskItemNodeName: 
+  crMotionTaskItemNodeName: ControllerTask01002
   motionName: shiftsidesingle01
   op: 0
   param1: 
@@ -2061,7 +2168,7 @@ MonoBehaviour:
   param3: 
   param4: 
   entry: ControllerTask01001_true
-  exit: 
+  exit: ControllerTask01002
 --- !u!114 &6073509720326782733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2149,7 +2256,7 @@ MonoBehaviour:
   m_Name: Floats To Float 3
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3000, y: 792}
+  position: {x: 2760, y: 776}
   ports:
     keys:
     - a
@@ -2196,17 +2303,17 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: a
-        node: {fileID: -5761643325091841844}
+        node: {fileID: -4477692760852338492}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  floatToFloat3NodeName: CollabTask01003
-  a: '{"nodename":"CollabTask01005.leftX","returntype":"float"}'
-  b: '{"nodename":"CollabTask01005.leftY","returntype":"float"}'
+  floatToFloat3NodeName: CollabTask01004
+  a: '{"nodename":"CollabTask01006.leftX","returntype":"float"}'
+  b: '{"nodename":"CollabTask01006.leftY","returntype":"float"}'
   c: '{"nodename":"TempNameCollab01.rightX","returntype":"float"}'
-  value: '{"nodename":"CollabTask01003","returntype":"float3"}'
+  value: '{"nodename":"CollabTask01004","returntype":"float3"}'
 --- !u!114 &6158810578095292024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2383,7 +2490,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  crMotionTaskItemNodeName: 
+  crMotionTaskItemNodeName: ControllerTask01005
   motionName: shiftsingle01
   op: 0
   param1: 
@@ -2391,7 +2498,7 @@ MonoBehaviour:
   param3: 
   param4: 
   entry: ControllerTask01004_true
-  exit: 
+  exit: ControllerTask01005
 --- !u!114 &9026878940697494120
 MonoBehaviour:
   m_ObjectHideFlags: 0
