@@ -1,0 +1,1343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8707922546490123406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 840, y: 104}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -2049462633994376370}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 2345017993377008576}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: v00
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: -8707922546490123406}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: i08
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajMoveHoldAsegs
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;movehold.segs
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VNodeMoveHoldAAsegs","returntype":"float3"}'
+  inputNodeB: '{"nodename":"movehold.segs.f300","returntype":"float3"}'
+  inputNodeC: '{"nodename":"movehold.segs.i08","returntype":"int"}'
+--- !u!114 &-8488110321432206077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -207.6001, y: 272.69998}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 4116893561597149892}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: -8488110321432206077}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajRoll2FacdDAsegs
+  trajName: circlerearwardccwsegs
+  resolution: 0
+  entry: motion;roll2faced.segs
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"","returntype":""}'
+  inputNodeB: '{"nodename":"","returntype":""}'
+  inputNodeC: '{"nodename":"","returntype":""}'
+--- !u!114 &-3034392681334160254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -495.6001, y: -239.30002}
+  ports:
+    keys:
+    - firstNode
+    - v00
+    - v01
+    - v02
+    - v03
+    - v04
+    - f05
+    - f06
+    - f07
+    - i08
+    - i09
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4736659034578184127}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: -3034392681334160254}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: faceuptoeturn01.segs
+  firstNode: motion;faceuptoeturn01.segs
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &-2619469715323293212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 432.3999, y: 160.69998}
+  ports:
+    keys:
+    - firstNode
+    - v00
+    - v01
+    - v02
+    - v03
+    - v04
+    - f05
+    - f06
+    - f07
+    - i08
+    - i09
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8707922546490123406}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: -8707922546490123406}
+        reroutePoints: []
+      - fieldName: inputNodeA
+        node: {fileID: 7807633960906199892}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: -8707922546490123406}
+        reroutePoints: []
+      - fieldName: inputNodeC
+        node: {fileID: 7807633960906199892}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: -2619469715323293212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: -2049462633994376370}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: movehold.segs
+  firstNode: motion;movehold.segs
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[{"nodename":"movehold.segs.f300","returntype":"float3"},{"nodename":"movehold.segs.i08","returntype":"int"},{"nodename":"movehold.segs.i09","returntype":"int"}]}'
+--- !u!114 &-2049462633994376370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1096, y: 216}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: auto
+        node: {fileID: -8707922546490123406}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 7807633960906199892}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: -2049462633994376370}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: i09
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajMoveHoldBsegs
+  trajName: PAUSETRAJECTORY
+  resolution: 0
+  entry: TrajMoveHoldAsegs_a
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: 
+  inputNodeB: 
+  inputNodeC: '{"nodename":"movehold.segs.i09","returntype":"int"}'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a00f9f31d4313c4ba9813087c2e3c75, type: 3}
+  m_Name: ZXYESegs01
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2619469715323293212}
+  - {fileID: -8707922546490123406}
+  - {fileID: 2345017993377008576}
+  - {fileID: -2049462633994376370}
+  - {fileID: 7807633960906199892}
+  - {fileID: 4116893561597149892}
+  - {fileID: -8488110321432206077}
+  - {fileID: -3034392681334160254}
+  - {fileID: 4736659034578184127}
+  - {fileID: 7654127922580653811}
+  - {fileID: 6967186079738834915}
+  uniqueNameSuffix: 0
+--- !u!114 &2345017993377008576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 592.3999, y: 656.69995}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 2345017993377008576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: -8707922546490123406}
+        reroutePoints: []
+      - fieldName: inputNodeB
+        node: {fileID: 7807633960906199892}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VNodeMoveHoldAAsegs
+  v: {x: 0, y: 0, z: 0}
+  value: '{"nodename":"VNodeMoveHoldAAsegs","returntype":"float3"}'
+--- !u!114 &4116893561597149892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -479.6001, y: 320.69998}
+  ports:
+    keys:
+    - firstNode
+    - v00
+    - v01
+    - v02
+    - v03
+    - v04
+    - f05
+    - f06
+    - f07
+    - i08
+    - i09
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8488110321432206077}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 4116893561597149892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: roll2faced.segs
+  firstNode: motion;roll2faced.segs
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &4736659034578184127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -223.6001, y: -287.30002}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: -3034392681334160254}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 4736659034578184127}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajFaceUpToeTurn01Asegs
+  trajName: medcirclerearwardccwsegs
+  resolution: 0
+  entry: motion;faceuptoeturn01.segs
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"","returntype":""}'
+  inputNodeB: '{"nodename":"","returntype":""}'
+  inputNodeC: '{"nodename":"","returntype":""}'
+--- !u!114 &6967186079738834915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -463.6001, y: 832.69995}
+  ports:
+    keys:
+    - firstNode
+    - v00
+    - v01
+    - v02
+    - v03
+    - v04
+    - f05
+    - f06
+    - f07
+    - i08
+    - i09
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 7654127922580653811}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 6967186079738834915}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: roll2faceu.segs
+  firstNode: motion;roll2faceu.segs
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &7654127922580653811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -191.6001, y: 784.69995}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 6967186079738834915}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 7654127922580653811}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajRoll2FaceUAsegs
+  trajName: circleforwardcwsegs
+  resolution: 0
+  entry: motion;roll2faceu.segs
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"","returntype":""}'
+  inputNodeB: '{"nodename":"","returntype":""}'
+  inputNodeC: '{"nodename":"","returntype":""}'
+--- !u!114 &7807633960906199892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1336, y: 376}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: auto
+        node: {fileID: -2049462633994376370}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: v00
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 2345017993377008576}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 7807633960906199892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: i08
+        node: {fileID: -2619469715323293212}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajMoveHoldCsegs
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: TrajMoveHoldBsegs_a
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"movehold.segs.f300","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VNodeMoveHoldAAsegs","returntype":"float3"}'
+  inputNodeC: '{"nodename":"movehold.segs.i08","returntype":"int"}'

@@ -1,0 +1,3559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9150389139119214993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1224, y: -952}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8261143269918184770}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: -9150389139119214993}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: forward01.lw
+  firstNode: motion;forward01.lw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &-8361090428042358396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -8, y: -456}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: -8361090428042358396}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 8607191583939837010}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: -8361090428042358396}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 7605241452602311739}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: -8361090428042358396}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -8361090428042358396}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 387758693354340879}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathFW01rw
+  op: 0
+  a: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+--- !u!114 &-7961159155101889763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2792, y: 488}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -7961159155101889763}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 8039612331690911534}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: RW01rw
+  v: 60
+  value: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &-7430610877320274939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8, y: 888}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: -7430610877320274939}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 392250448742712670}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: -7430610877320274939}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 6114462709949607099}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: -7430610877320274939}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -7430610877320274939}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 8438343386237135836}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathBW01rw
+  op: 1
+  a: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+--- !u!114 &-7394718533660305103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 24, y: -216}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -7394718533660305103}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 387758693354340879}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: FW01rw
+  v: 60
+  value: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &-4106093622041878036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -3720, y: 200}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: -4106093622041878036}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 6691416133178143462}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: -4106093622041878036}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -33607458351526586}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: -4106093622041878036}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: -4106093622041878036}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 8893022525989813322}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathLW01lw
+  op: 1
+  a: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+--- !u!114 &-3794834292877607376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 40, y: 1128}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -3794834292877607376}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 8438343386237135836}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: BW01rw
+  v: 60
+  value: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &-2767800098788794713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1992, y: -56}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 8335507536600004283}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: -247723904596747092}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 4581470180344902441}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: -2767800098788794713}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 173002769625129143}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajRW01lw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.lw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &-890981036666527510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2136, y: -104}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 3664227881244391885}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 6363688304033157726}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 1503777987607675795}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: -890981036666527510}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 3172265109761858941}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajLW01rw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.rw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &-671969587309901930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1496, y: 952}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -671969587309901930}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: 1838956819395323754}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncBWGaitlw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+--- !u!114 &-270246429518067153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1144, y: 1128}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -270246429518067153}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 5477211647574266135}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: BW01lw
+  v: 60
+  value: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &-247723904596747092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1288, y: 56}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: -247723904596747092}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: -2767800098788794713}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: 4581470180344902441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncRWlwStancelw
+  functionName: getlwStance
+  retValue: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+--- !u!114 &-33607458351526586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -4040, y: 264}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: -33607458351526586}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: -4106093622041878036}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncLWGaitlw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbccfdea30a94694a89a923d45e1fed6, type: 3}
+  m_Name: BalDiffMotion
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -9150389139119214993}
+  - {fileID: 8261143269918184770}
+  - {fileID: 2577972766155763503}
+  - {fileID: 4011117558572340084}
+  - {fileID: 387758693354340879}
+  - {fileID: 8607191583939837010}
+  - {fileID: 3514607291137121633}
+  - {fileID: 1529997037494905963}
+  - {fileID: 8909145448982059126}
+  - {fileID: 7605241452602311739}
+  - {fileID: -8361090428042358396}
+  - {fileID: -7394718533660305103}
+  - {fileID: 6559449882984463910}
+  - {fileID: 5477211647574266135}
+  - {fileID: 5241488856972774884}
+  - {fileID: 1809701141008430174}
+  - {fileID: 8438343386237135836}
+  - {fileID: 392250448742712670}
+  - {fileID: -270246429518067153}
+  - {fileID: 1838956819395323754}
+  - {fileID: -671969587309901930}
+  - {fileID: 6114462709949607099}
+  - {fileID: -7430610877320274939}
+  - {fileID: -3794834292877607376}
+  - {fileID: 8156284774085778892}
+  - {fileID: 8893022525989813322}
+  - {fileID: 6691416133178143462}
+  - {fileID: 3664227881244391885}
+  - {fileID: -890981036666527510}
+  - {fileID: 6363688304033157726}
+  - {fileID: 955811340748363622}
+  - {fileID: -4106093622041878036}
+  - {fileID: -33607458351526586}
+  - {fileID: 8484111132809756083}
+  - {fileID: 1503777987607675795}
+  - {fileID: 3172265109761858941}
+  - {fileID: 8335507536600004283}
+  - {fileID: -2767800098788794713}
+  - {fileID: -247723904596747092}
+  - {fileID: 742447879320645243}
+  - {fileID: 8039612331690911534}
+  - {fileID: 8654440838795251720}
+  - {fileID: 173002769625129143}
+  - {fileID: 4581470180344902441}
+  - {fileID: 4338233790088475545}
+  - {fileID: 863582918904841002}
+  - {fileID: 8521933517877427046}
+  - {fileID: -7961159155101889763}
+--- !u!114 &173002769625129143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1608, y: 488}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 173002769625129143}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: -2767800098788794713}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: RW01lw
+  v: 60
+  value: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &387758693354340879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 392, y: -760}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 4011117558572340084}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 8607191583939837010}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -8361090428042358396}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 387758693354340879}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -7394718533660305103}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajFW01rw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.rw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &392250448742712670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -280, y: 696}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 392250448742712670}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 8438343386237135836}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: -7430610877320274939}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncBWrwStancerw
+  functionName: getrwStance
+  retValue: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+--- !u!114 &742447879320645243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2728, y: -248}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8039612331690911534}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 742447879320645243}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: rightward01.rw
+  firstNode: motion;rightward01.rw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &863582918904841002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2456, y: 312}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 863582918904841002}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: 8521933517877427046}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncRWGaitrw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+--- !u!114 &955811340748363622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -3688, y: 440}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 955811340748363622}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 8893022525989813322}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: LW01lw
+  v: 60
+  value: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &1503777987607675795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2536, y: 200}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: 1503777987607675795}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 6363688304033157726}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: 1503777987607675795}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 8484111132809756083}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: 1503777987607675795}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 1503777987607675795}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: -890981036666527510}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathLW01rw
+  op: 0
+  a: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+--- !u!114 &1529997037494905963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1192, y: -456}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: 1529997037494905963}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 2577972766155763503}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: 1529997037494905963}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 8909145448982059126}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: 1529997037494905963}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 1529997037494905963}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 8261143269918184770}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathFW01lw
+  op: 0
+  a: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+--- !u!114 &1809701141008430174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -24, y: 392}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8438343386237135836}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 1809701141008430174}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: backward01.rw
+  firstNode: motion;forward01.rw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &1838956819395323754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1176, y: 888}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: 1838956819395323754}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 5241488856972774884}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: 1838956819395323754}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -671969587309901930}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: 1838956819395323754}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 1838956819395323754}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 5477211647574266135}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathBW01lw
+  op: 1
+  a: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+--- !u!114 &2577972766155763503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1480, y: -648}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 2577972766155763503}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 8261143269918184770}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: 1529997037494905963}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncFWlwStancelw
+  functionName: getlwStance
+  retValue: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+--- !u!114 &3172265109761858941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2504, y: 440}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 3172265109761858941}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: -890981036666527510}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: LW01rw
+  v: 60
+  value: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &3514607291137121633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24226f6956a400343b3c86b89503c019, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1160, y: -216}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 3514607291137121633}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeC
+        node: {fileID: 8261143269918184770}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  intNodeName: FW01lw
+  v: 60
+  value: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &3664227881244391885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2568, y: -296}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -890981036666527510}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 3664227881244391885}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: leftward01.rw
+  firstNode: motion;forward01.rw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &4011117558572340084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -40, y: -952}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 387758693354340879}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 4011117558572340084}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: forward01.rw
+  firstNode: motion;forward01.rw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &4338233790088475545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1256, y: 312}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 4338233790088475545}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: 4581470180344902441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncRWGaitlw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+--- !u!114 &4581470180344902441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1576, y: 248}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: 4581470180344902441}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: -247723904596747092}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: 4581470180344902441}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 4338233790088475545}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: 4581470180344902441}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 4581470180344902441}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: -2767800098788794713}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathRW01lw
+  op: 0
+  a: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+--- !u!114 &5241488856972774884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1464, y: 696}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 5241488856972774884}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 5477211647574266135}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: 1838956819395323754}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncBWlwStancelw
+  functionName: getlwStance
+  retValue: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+--- !u!114 &5477211647574266135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -760, y: 584}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 6559449882984463910}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 5241488856972774884}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 1838956819395323754}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 5477211647574266135}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -270246429518067153}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajBW01lw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.lw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &6114462709949607099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -296, y: 952}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 6114462709949607099}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: -7430610877320274939}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncBWGaitrw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+--- !u!114 &6363688304033157726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2824, y: 8}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 6363688304033157726}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: -890981036666527510}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: 1503777987607675795}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncLWrwStancerw
+  functionName: getrwStance
+  retValue: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+--- !u!114 &6559449882984463910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1208, y: 392}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5477211647574266135}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 6559449882984463910}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: backward01.lw
+  firstNode: motion;forward01.lw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &6691416133178143462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -4008, y: 8}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 6691416133178143462}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 8893022525989813322}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: -4106093622041878036}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncLWlwStancelw
+  functionName: getlwStance
+  retValue: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+--- !u!114 &7605241452602311739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -312, y: -392}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 7605241452602311739}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: -8361090428042358396}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncFWGaitrw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+--- !u!114 &8039612331690911534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3160, y: -56}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 742447879320645243}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 8654440838795251720}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 8521933517877427046}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 8039612331690911534}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -7961159155101889763}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajRW01rw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.rw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &8156284774085778892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -3752, y: -296}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8893022525989813322}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 8156284774085778892}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: leftward01.lw
+  firstNode: motion;backward01.lw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &8261143269918184770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -776, y: -760}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: -9150389139119214993}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 2577972766155763503}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 1529997037494905963}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 8261143269918184770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 3514607291137121633}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajFW01lw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.lw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &8335507536600004283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a69d13c6566a74c835c58739ee34ee, type: 3}
+  m_Name: Motion
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1544, y: -248}
+  ports:
+    keys:
+    - firstNode
+    - i09
+    - i08
+    - f07
+    - f06
+    - f05
+    - v04
+    - v03
+    - v02
+    - v01
+    - v00
+    values:
+    - _fieldName: firstNode
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -2767800098788794713}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i09
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: i08
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f07
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f06
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: f05
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v04
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v03
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v02
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v01
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: v00
+      _node: {fileID: 8335507536600004283}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  motionName: rightward01.lw
+  firstNode: motion;leftward01.lw
+  v00: 
+  v01: 
+  v02: 
+  v03: 
+  v04: 
+  f05: 
+  f06: 
+  f07: 
+  i08: 
+  i09: 
+  inputString: '{"inputs":[]}'
+--- !u!114 &8438343386237135836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 408, y: 584}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 1809701141008430174}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 392250448742712670}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -7430610877320274939}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 8438343386237135836}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -3794834292877607376}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajBW01rw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.rw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01rw","returntype":"int"}'
+--- !u!114 &8484111132809756083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2840, y: 264}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 8484111132809756083}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: 1503777987607675795}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncLWGaitrw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+--- !u!114 &8521933517877427046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d01cfbe03e687f458adf9e815ec5d00, type: 3}
+  m_Name: Vector Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2760, y: 248}
+  ports:
+    keys:
+    - a
+    - bv
+    - bf
+    - value
+    values:
+    - _fieldName: a
+      _node: {fileID: 8521933517877427046}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 8654440838795251720}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bv
+      _node: {fileID: 8521933517877427046}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 863582918904841002}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: bf
+      _node: {fileID: 8521933517877427046}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: value
+      _node: {fileID: 8521933517877427046}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeB
+        node: {fileID: 8039612331690911534}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorMathNodeName: VMathRW01rw
+  op: 1
+  a: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+  bv: '{"nodename":"VFuncGaitrw","returntype":"float3"}'
+  bf: 
+  value: '{"nodename":"VMathFW01rw","returntype":"float3"}'
+--- !u!114 &8607191583939837010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -296, y: -648}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 8607191583939837010}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 387758693354340879}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: -8361090428042358396}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncFWrwStancerw
+  functionName: getrwStance
+  retValue: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+--- !u!114 &8654440838795251720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cdfc1e0e8c3247acfe5d43841a5b9, type: 3}
+  m_Name: Vector Func Input
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2472, y: 56}
+  ports:
+    keys:
+    - retValue
+    values:
+    - _fieldName: retValue
+      _node: {fileID: 8654440838795251720}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: inputNodeA
+        node: {fileID: 8039612331690911534}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: 8521933517877427046}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorFuncNodeName: VFuncRWrwStancerw
+  functionName: getrwStance
+  retValue: '{"nodename":"VFuncrwStancerw","returntype":"float3"}'
+--- !u!114 &8893022525989813322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f88ac98f38c8914f96280ecb258962e, type: 3}
+  m_Name: Traj
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -3304, y: -104}
+  ports:
+    keys:
+    - entry
+    - auto
+    - zero
+    - negative
+    - positive
+    - inputNodeA
+    - inputNodeB
+    - inputNodeC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: firstNode
+        node: {fileID: 8156284774085778892}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: auto
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: zero
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: negative
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: positive
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeA
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: retValue
+        node: {fileID: 6691416133178143462}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeB
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: -4106093622041878036}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputNodeC
+      _node: {fileID: 8893022525989813322}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 955811340748363622}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  trajNodeName: TrajLW01lw
+  trajName: STRAIGHTTRAJECTORY
+  resolution: 0
+  entry: motion;forward01.lw
+  auto: a
+  zero: b
+  negative: c
+  positive: d
+  inputNodeA: '{"nodename":"VFunclwStancelw","returntype":"float3"}'
+  inputNodeB: '{"nodename":"VMathFW01lw","returntype":"float3"}'
+  inputNodeC: '{"nodename":"FW01lw","returntype":"int"}'
+--- !u!114 &8909145448982059126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9126eeb986c92b4480325898feef0b7, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1512, y: -392}
+  ports:
+    keys:
+    - value
+    values:
+    - _fieldName: value
+      _node: {fileID: 8909145448982059126}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: bv
+        node: {fileID: 1529997037494905963}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  vectorNodeName: VFuncFWGaitlw
+  v: {x: 0, y: 0, z: 0.1}
+  value: '{"nodename":"VFuncGaitlw","returntype":"float3"}'
